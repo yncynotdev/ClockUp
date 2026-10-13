@@ -1,12 +1,20 @@
 <script setup lang="ts">
 const items = ref([
   {
+    date: "October 13, 2026",
+    title: "Holiday & Staff Management",
+    description:
+      "Introduced a holidays API and clock presets for staff creation, alongside improved OTP emails and client-side refinements.",
+    thumbnail: "/thumbnail/v0.9.8.png",
+    to: "/changelog/0.9.x/holiday-and-staff-management",
+  },
+  {
     date: "October 09, 2026",
     title: "Attendance & Realtime Improvements",
     description:
       "Improved attendance tracking with clock-out images, working-hours summaries, timezone settings, and real-time updates.",
     thumbnail: "/thumbnail/v0.9.8.png",
-    to: "/changelog/attendance-and-realtime-improvements",
+    to: "/changelog/0.9.x/attendance-and-realtime-improvements",
   },
   {
     date: "September 30, 2026",
@@ -14,7 +22,7 @@ const items = ref([
     description:
       "Minor fixes, UI refinements, security improvements, and development workflow updates across PETER.",
     thumbnail: "/thumbnail/v0.9.8.png",
-    to: "/changelog/maintenance-and-refinements",
+    to: "/changelog/0.9.x/maintenance-and-refinements",
   },
   {
     date: "September 24, 2026",
@@ -22,7 +30,7 @@ const items = ref([
     description:
       "Download attendance records as PDF or Excel files for easier reporting and record keeping.",
     thumbnail: "/thumbnail/v0.9.7.png",
-    to: "/changelog/attendance-data-export",
+    to: "/changelog/0.9.x/attendance-data-export",
   },
   {
     date: "September 14, 2026",
@@ -30,7 +38,7 @@ const items = ref([
     description:
       "Introducing a calendar-based system for easily filtering and navigating attendance records.",
     thumbnail: "/thumbnail/v0.9.6.png",
-    to: "/changelog/attendance-calendar",
+    to: "/changelog/0.9.x/attendance-calendar",
   },
   {
     date: "September 10, 2026",
@@ -38,7 +46,7 @@ const items = ref([
     description:
       " Improved PETER’s infrastructure with CI/CD, unit and E2E testing, and a more reliable development workflow, alongside minor fixes and refinements. ",
     thumbnail: "/thumbnail/v0.9.5.png",
-    to: "/changelog/improve-infrastructure",
+    to: "/changelog/0.9.x/improve-infrastructure",
   },
   {
     date: "September 01, 2026",
@@ -46,7 +54,7 @@ const items = ref([
     description:
       "Completed the transition from PETER's legacy implementation to its new infrastructure and system architecture.",
     thumbnail: "/thumbnail/v0.9.4.png",
-    to: "/changelog/legacy-integration-complete",
+    to: "/changelog/0.9.x/legacy-integration-complete",
   },
 ]);
 </script>
