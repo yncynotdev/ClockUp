@@ -1,7 +1,7 @@
 # ClockUp — Landing Page
 
 <p align="center">
-  <img src="/public/icon-180x180.png" alt="ClockUp" >
+  <img src="/public/icon-192x192.png" alt="ClockUp" >
 </p>
 
 <p align="center">
