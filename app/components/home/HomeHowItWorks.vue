@@ -56,7 +56,7 @@ const steps = [
       loop
       playsinline
       preload="metadata"
-      class="bg-elevated rin ring-muted shadow-lg shadow-default/5"
+      class="bg-elevated rin ring-muted shadow-lg shadow-default/5 w-full"
     >
       <source src="/clip/attendance-demo.mp4" type="video/mp4" />
     </video>
