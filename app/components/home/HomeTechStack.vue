@@ -19,12 +19,12 @@ const techstack = [
     name: "PostgreSQL",
     icon: "simple-icons:postgresql",
     description:
-      "A powerful relational database for storing PETER's attendance and organizational data.",
+      "A powerful relational database for storing ClockUp's attendance and organizational data.",
   },
   {
     name: "Cloudflare",
     icon: "simple-icons:cloudflare",
-    description: "Global infrastructure for running PETER close to the organizations it serves.",
+    description: "Global infrastructure for running ClockUp close to the organizations it serves.",
   },
 ];
 </script>
@@ -35,15 +35,13 @@ const techstack = [
     v-reveal
     title="Powered by"
     description="Built with modern technologies and infrastructure."
-    :ui="{ root: 'py-16 sm:py-20', title: 'font-display font-normal tracking-[-0.02em]' }"
+    :ui="{
+      root: 'py-16 sm:py-20 ',
+      title: 'font-display font-normal tracking-[-0.02em]',
+    }"
   >
     <UPageGrid>
-      <UCard
-        v-for="(stack, index) in techstack"
-        :key="stack.name"
-        v-reveal="revealAt(index)"
-        :ui="{ root: 'bg-elevated ring ring-muted shadow-lg shadow-default/5' }"
-      >
+      <UCard v-for="(stack, index) in techstack" :key="stack.name" v-reveal="revealAt(index)">
         <div class="flex items-center gap-4">
           <UIcon :name="stack.icon" class="size-16 rounded-2xl object-contain p-2" />
           <div>

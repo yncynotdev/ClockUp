@@ -1,4 +1,4 @@
-# PETER — Holiday & Staff Management
+# ClockUp — Holiday & Staff Management
 
 **Beta Release** · Internal
 
@@ -54,13 +54,13 @@ These changes support a more consistent rendering experience as the application 
 
 ## 📌 What This Release Means
 
-This release expands PETER's supporting attendance functionality through a new holidays API and more convenient staff configuration.
+This release expands ClockUp's supporting attendance functionality through a new holidays API and more convenient staff configuration.
 
 Alongside these additions, authentication email refinements, OTP resend fixes, and client-side improvements help make everyday workflows more consistent.
 
 ## ⚠️ Beta Status
 
-PETER remains in beta and is under active development. Features, behavior, architecture, and implementation may continue to change before the eventual `1.0.0` stable release.
+ClockUp remains in beta and is under active development. Features, behavior, architecture, and implementation may continue to change before the eventual `1.0.0` stable release.
 
 ## Release Timeline
 

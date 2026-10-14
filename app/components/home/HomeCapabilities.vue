@@ -42,9 +42,9 @@ const capabilities = [
     id="about"
     v-reveal
     title="Attendance that feels simple, not intimidating."
-    description="PETER helps organizations manage clock-ins, clock-outs, and attendance records while reducing buddy-punching. Face detection is used for attendance verification, and biometric data is not stored."
+    description="ClockUp helps organizations manage clock-ins, clock-outs, and attendance records while reducing buddy-punching. Face detection is used for attendance verification, and biometric data is not stored."
     :ui="{
-      root: 'py-20 sm:py-24 bg-muted/35',
+      root: 'py-20 sm:py-24 ',
       title: 'font-display font-normal tracking-[-0.02em]',
     }"
   >
@@ -55,7 +55,6 @@ const capabilities = [
         v-reveal="revealAt(index)"
         v-bind="item"
         :ui="{
-          root: 'bg-elevated ring ring-muted shadow-lg shadow-default/5',
           title: 'font-display font-normal text-lg',
           description: 'text-toned leading-7',
         }"

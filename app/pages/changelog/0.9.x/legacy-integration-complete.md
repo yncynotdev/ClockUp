@@ -1,12 +1,12 @@
-# PETER v0.9.4 — Legacy Integration Complete
+# ClockUp v0.9.4 — Legacy Integration Complete
 
 **Beta Release** · Internal
 
 ## Overview
 
-`v0.9.4` marks an important milestone in PETER's development: the legacy implementation has been fully integrated into the new architecture.
+`v0.9.4` marks an important milestone in ClockUp's development: the legacy implementation has been fully integrated into the new architecture.
 
-This release represents the completion of the transition from the previous implementation toward the current PETER codebase and architecture.
+This release represents the completion of the transition from the previous implementation toward the current ClockUp codebase and architecture.
 
 Rather than introducing a single major feature, this release consolidates a significant amount of previous work into the new system and establishes the foundation for further development.
 
@@ -22,7 +22,7 @@ With this milestone:
 - The application is no longer dependent on the previous implementation for the integrated functionality.
 - The new architecture becomes the primary foundation for future development.
 
-This effectively closes the legacy integration phase of PETER.
+This effectively closes the legacy integration phase of ClockUp.
 
 ## 🔧 Improvements
 
@@ -46,7 +46,7 @@ This release also includes fixes and adjustments discovered while completing the
 
 `v0.9.4` is primarily a development milestone.
 
-The most important outcome is not a particular user-facing feature, but the fact that PETER has reached a point where the legacy implementation can be considered integrated and the project can move forward using the new architecture.
+The most important outcome is not a particular user-facing feature, but the fact that ClockUp has reached a point where the legacy implementation can be considered integrated and the project can move forward using the new architecture.
 
 Future `0.9.x` releases will focus increasingly on:
 
@@ -65,10 +65,10 @@ Deployment may occur separately from the GitHub release.
 
 ## ⚠️ Beta Status
 
-PETER remains in beta and is under active development. The architecture, behavior, features, and implementation may continue to change before the eventual `1.0.0` stable release.
+ClockUp remains in beta and is under active development. The architecture, behavior, features, and implementation may continue to change before the eventual `1.0.0` stable release.
 
 ## Release Timeline
 
 ### v0.9.4 — Legacy Integration Complete
 
-The legacy implementation has been fully integrated into the new PETER architecture, completing the project's legacy migration phase.
+The legacy implementation has been fully integrated into the new ClockUp architecture, completing the project's legacy migration phase.

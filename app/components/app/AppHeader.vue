@@ -10,17 +10,17 @@ const navigation = [
 </script>
 
 <template>
-  <UHeader :ui="{ root: 'bg-elevated backdrop-blur border-muted' }">
+  <UHeader :ui="{ root: ' backdrop-blur border-muted' }">
     <template #title>
       <div class="flex flew-row items-center gap-2.5">
-        <NuxtImg src="/icon.png" class="size-7.5" />
+        <NuxtImg src="/icon-180x180.png" class="size-9" />
 
         <NuxtLink to="/" class="font-display text-xl tracking-tight text-highlighted">
-          PETER
+          ClockUp
         </NuxtLink>
-      </div>
 
-      <UBadge variant="subtle">v0.9.10</UBadge>
+        <UBadge variant="subtle">v0.9.10</UBadge>
+      </div>
     </template>
 
     <UNavigationMenu :items="navigation" class="hidden md:flex" />
@@ -32,7 +32,7 @@ const navigation = [
         <UButton
           color="neutral"
           variant="ghost"
-          to="https://github.com/yncynotdev/peter"
+          to="https://github.com/yncynotdev/ClockUp"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"

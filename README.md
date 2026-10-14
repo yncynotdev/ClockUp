@@ -1,21 +1,21 @@
-# PETER — Landing Page
+# ClockUp — Landing Page
 
 <p align="center">
-  <img src="/public/icon-180x180.png" alt="PETER" >
+  <img src="/public/icon-180x180.png" alt="ClockUp" >
 </p>
 
 <p align="center">
-  <strong>Landing site for PETER, an Attendance Management System</strong>
+  <strong>Landing site for ClockUp, an Attendance Management System</strong>
 </p>
 
 <p align="center">
-  This repository contains the public landing page for PETER — a camera-assisted
+  This repository contains the public landing page for ClockUp — a camera-assisted
   attendance system built for schools, seminaries, and organizations. The core
   application is closed-source and maintained separately.
 </p>
 
 <p align="center">
-  <a href="#about-peter">About PETER</a>
+  <a href="#about-peter">About ClockUp</a>
   ·
   <a href="#built-with">Built With</a>
   ·
@@ -26,9 +26,9 @@
 
 ---
 
-## 📖 About PETER
+## 📖 About ClockUp
 
-PETER is an attendance management system that uses camera-assisted capture to
+ClockUp is an attendance management system that uses camera-assisted capture to
 help prevent proxy or fraudulent attendance, without storing biometric templates.
 
 Highlights of the product:
@@ -39,7 +39,7 @@ Highlights of the product:
 - 🔐 Secure authentication and an administrative dashboard
 - ☁️ Runs on modern cloud infrastructure
 
-> This repo covers only the public-facing landing page. The PETER application
+> This repo covers only the public-facing landing page. The ClockUp application
 > itself — including source code, infrastructure, and business logic — is
 > proprietary and not published here.
 
@@ -56,14 +56,14 @@ This landing page is built with:
 | **TypeScript**       | Language       |
 | **Cloudflare Pages** | Hosting        |
 
-_(The PETER application itself uses Nuxt, Hono, PostgreSQL, Better Auth, and
-Playwright — see [About PETER](#about-peter) above.)_
+_(The ClockUp application itself uses Nuxt, Hono, PostgreSQL, Better Auth, and
+Playwright — see [About ClockUp](#about-peter) above.)_
 
 ---
 
 ## 🚧 Status
 
-**Live** — this landing page is actively maintained alongside PETER's development.
+**Live** — this landing page is actively maintained alongside ClockUp's development.
 
 ---
 
@@ -73,19 +73,19 @@ This **landing page repository's code** (Nuxt/Vue components, TypeScript,
 config, and markup) is licensed under the [MIT License](./LICENSE) — feel
 free to reuse or reference it.
 
-**Exception:** The PETER icon/logo (`/public/icon-180x180.png` and any other
+**Exception:** The ClockUp icon/logo (`/public/icon-180x180.png` and any other
 brand assets in this repo) is **not** covered by the MIT license and remains
-© PETER. Please do not copy, reuse, or redistribute the icon/logo without
+© ClockUp. Please do not copy, reuse, or redistribute the icon/logo without
 permission.
 
-The PETER **application** itself remains proprietary software; source, usage,
+The ClockUp **application** itself remains proprietary software; source, usage,
 and deployment are governed by a separate agreement with the maintainer. MIT
-licensing here applies only to this landing page's code, not to PETER's core
+licensing here applies only to this landing page's code, not to ClockUp's core
 codebase or its branding.
 
 ---
 
 <p align="center">
-  <sub>© PETER · Attendance Management System</sub>
+  <sub>© ClockUp · Attendance Management System</sub>
   <sub>Special thanks to Rom Jerico Reyes</sub>
 </p>

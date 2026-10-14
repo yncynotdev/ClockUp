@@ -6,37 +6,34 @@
   --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Silkscreen", ui-monospace, monospace;
 
-  --color-foam-50: #d5eaee;
-  --color-foam-100: #c7e4e9;
-  --color-foam-200: #b9dde3;
-  --color-foam-300: #abd6de;
-  --color-foam-400: #9ccfd8;
-  --color-foam-500: #56949f;
-  --color-foam-600: #4a7d87;
-  --color-foam-700: #3f686f;
-  --color-foam-800: #345258;
-  --color-foam-900: #293e42;
-  --color-foam-950: #1e2b2e;
+  /* --color-foam-50: #d5eaee; */
+  /* --color-foam-100: #c7e4e9; */
+  /* --color-foam-200: #b9dde3; */
+  /* --color-foam-300: #abd6de; */
+  /* --color-foam-400: #9ccfd8; */
+  /* --color-foam-500: #56949f; */
+  /* --color-foam-600: #4a7d87; */
+  /* --color-foam-700: #3f686f; */
+  /* --color-foam-800: #345258; */
+  /* --color-foam-900: #293e42; */
+  /* --color-foam-950: #1e2b2e; */
 }
 
-:root {
-  --ui-radius: 0.95rem;
-  --ui-success: #286983;
-  --ui-bg: #faf4ed;
-  --ui-bg-muted: #f4ede8;
-  --ui-bg-elevated: #fffaf3;
-  --ui-bg-accented: #f2e9e1;
-  --ui-text: #464261;
-  --ui-text-highlighted: #464261;
-  --ui-text-toned: #797593;
-  --ui-text-muted: #9893a5;
-  --ui-border: #cecacd;
-  --ui-border-muted: #dfdad9;
-  --peter-wash: color-mix(in srgb, #56949f 28%, transparent);
-  --peter-wash-strong: color-mix(in srgb, #286983 18%, transparent);
-  color-scheme: light;
-  --ui-border-accented: #56949f;
-}
+/* :root { */
+/*   --ui-radius: 0.95rem; */
+/*   --ui-success: #286983; */
+/*   --ui-bg: #faf4ed; */
+/*   --ui-bg-muted: #f4ede8; */
+/*   --ui-bg-elevated: #fffaf3; */
+/*   --ui-bg-accented: #f2e9e1; */
+/*   --ui-text: #464261; */
+/*   --ui-text-highlighted: #464261; */
+/*   --ui-text-toned: #797593; */
+/*   --ui-text-muted: #9893a5; */
+/*   --ui-border: #cecacd; */
+/*   --ui-border-muted: #dfdad9; */
+/*   --ui-border-accented: #56949f; */
+/* } */
 
 .dark {
   --ui-success: #3e8fb0;
@@ -50,16 +47,13 @@
   --ui-text-muted: #6e6a86;
   --ui-border: #56526e;
   --ui-border-muted: #44415a;
-  --peter-wash: color-mix(in srgb, #9ccfd8 20%, transparent);
-  --peter-wash-strong: color-mix(in srgb, #3e8fb0 22%, transparent);
-  color-scheme: dark;
   --ui-border-accented: #9ccfd8;
 }
 
-::selection {
-  background: var(--ui-primary);
-  color: var(--ui-bg);
-}
+/* ::selection { */
+/*   background: var(--ui-primary); */
+/*   color: var(--ui-bg); */
+/* } */
 
 html {
   scroll-behavior: smooth;

@@ -23,7 +23,7 @@ export default defineNuxtConfig({
     pageTransition: { name: "page", mode: "out-in" },
 
     head: {
-      title: "PETER",
+      title: "ClockUp",
 
       htmlAttrs: {
         lang: "en",
@@ -33,7 +33,7 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "PETER is a web-app camera-based attendance management system designed to simplify attendance tracking, prevent fraudulent clock-ins, and provide organizations with a reliable and modern attendance experience.",
+            "ClockUp is a web-app camera-based attendance management system designed to simplify attendance tracking, prevent fraudulent clock-ins, and provide organizations with a reliable and modern attendance experience.",
         },
         {
           name: "author",
@@ -41,12 +41,12 @@ export default defineNuxtConfig({
         },
         {
           property: "og:title",
-          content: "PETER — Attendance Management System",
+          content: "ClockUp — Attendance Management System",
         },
         {
           property: "og:description",
           content:
-            "PETER is a web-app camera-based attendance management system designed to simplify attendance tracking, prevent fraudulent clock-ins, and provide organizations with a reliable and modern attendance experience.",
+            "ClockUp is a web-app camera-based attendance management system designed to simplify attendance tracking, prevent fraudulent clock-ins, and provide organizations with a reliable and modern attendance experience.",
         },
         {
           property: "og:image",

@@ -12,7 +12,7 @@ const steps = [
   },
   {
     title: "Submit attendance",
-    description: "PETER records the attendance and marks whether the attempt was verified.",
+    description: "ClockUp records the attendance and marks whether the attempt was verified.",
     icon: "i-lucide-send",
   },
 ];
@@ -30,15 +30,10 @@ const steps = [
     }"
   >
     <div class="grid gap-4 lg:grid-cols-3">
-      <UCard
-        v-for="(step, index) in steps"
-        :key="step.title"
-        v-reveal="revealAt(index)"
-        :ui="{ root: 'bg-elevated ring ring-muted shadow-lg shadow-default/5' }"
-      >
+      <UPageCard v-for="(step, index) in steps" :key="step.title" v-reveal="revealAt(index)">
         <div class="flex items-start gap-4">
           <div
-            class="grid size-12 shrink-0 place-items-center rounded-2xl bg-accented text-primary ring ring-muted"
+            class="grid size-12 shrink-0 place-items-center rounded-2xl text-primary ring ring-muted"
           >
             <UIcon :name="step.icon" class="size-6" />
           </div>
@@ -52,7 +47,7 @@ const steps = [
             </p>
           </div>
         </div>
-      </UCard>
+      </UPageCard>
     </div>
 
     <video

@@ -29,19 +29,19 @@ const columns: FooterColumn[] = [
 </script>
 
 <template>
-  <UFooter :ui="{ root: 'border-muted bg-elevated' }">
+  <UFooter :ui="{ root: 'border-elevated bg-elevated' }">
     <UFooterColumns :columns="columns">
       <template #right>
         <p class="text-muted text-sm">
           All Rights Reserved. © {{ new Date().getFullYear() }} yncynotdev
           <br />
-          PETER · Made possible with the support of Rom Jerico Reyes
+          ClockUp · Made possible with the support of Rom Jerico Reyes
         </p>
 
         <UButton
           color="neutral"
           variant="ghost"
-          to="https://github.com/yncynotdev/peter"
+          to="https://github.com/yncynotdev/ClockUp"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"

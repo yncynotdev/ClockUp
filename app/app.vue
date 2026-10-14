@@ -5,6 +5,7 @@
       <AppHeader />
 
       <UMain class="flex-1">
+        <NuxtLoadingIndicator />
         <NuxtLayout>
           <NuxtPage />
         </NuxtLayout>

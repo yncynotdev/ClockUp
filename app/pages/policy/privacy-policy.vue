@@ -7,7 +7,5 @@ definePageMeta({
 </script>
 
 <template>
-  <UPageCard :ui="{ root: 'bg-elevated ring ring-muted shadow-lg shadow-default/5 p-7' }">
-    <Markdown>{{ content }}</Markdown>
-  </UPageCard>
+<DocsCard :content="content" />
 </template>

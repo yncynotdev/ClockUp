@@ -20,7 +20,7 @@ const items = ref([
     date: "September 30, 2026",
     title: "Maintenance & Refinements",
     description:
-      "Minor fixes, UI refinements, security improvements, and development workflow updates across PETER.",
+      "Minor fixes, UI refinements, security improvements, and development workflow updates across ClockUp.",
     thumbnail: "/thumbnail/v0.9.8.png",
     to: "/changelog/0.9.x/maintenance-and-refinements",
   },
@@ -44,7 +44,7 @@ const items = ref([
     date: "September 10, 2026",
     title: "Improve Infrastructure and Revamped Icon",
     description:
-      " Improved PETER’s infrastructure with CI/CD, unit and E2E testing, and a more reliable development workflow, alongside minor fixes and refinements. ",
+      " Improved ClockUp’s infrastructure with CI/CD, unit and E2E testing, and a more reliable development workflow, alongside minor fixes and refinements. ",
     thumbnail: "/thumbnail/v0.9.5.png",
     to: "/changelog/0.9.x/improve-infrastructure",
   },
@@ -52,7 +52,7 @@ const items = ref([
     date: "September 01, 2026",
     title: "Legacy Integration Complete",
     description:
-      "Completed the transition from PETER's legacy implementation to its new infrastructure and system architecture.",
+      "Completed the transition from ClockUp's legacy implementation to its new infrastructure and system architecture.",
     thumbnail: "/thumbnail/v0.9.4.png",
     to: "/changelog/0.9.x/legacy-integration-complete",
   },
@@ -64,7 +64,7 @@ const items = ref([
     <UPageHero
       v-reveal
       title="Changelog"
-      description="Follow the latest updates and improvements of PETER"
+      description="Follow the latest updates and improvements of ClockUp"
       :ui="{
         title: 'font-display font-normal',
       }"

@@ -1,10 +1,10 @@
-# PETER v0.9.9 — Attendance & Realtime Improvements
+# ClockUp v0.9.9 — Attendance & Realtime Improvements
 
 **Beta Release** · Internal
 
 ## Overview
 
-`v0.9.9` introduces several improvements to PETER's attendance management system, focusing on more complete attendance records, working-hours summaries, timezone configuration, and real-time data updates.
+`v0.9.9` introduces several improvements to ClockUp's attendance management system, focusing on more complete attendance records, working-hours summaries, timezone configuration, and real-time data updates.
 
 This release adds clock-out image capture, summarizes total working hours per cutoff period, and introduces Server-Sent Events (SSE) for attendance updates.
 
@@ -18,11 +18,11 @@ This release introduces image capture for clock-out records, complementing the e
 - Improved the completeness of attendance records.
 - Provided additional visual information associated with attendance activity.
 
-With both clock-in and clock-out images, PETER can maintain a more complete visual record of an attendance session.
+With both clock-in and clock-out images, ClockUp can maintain a more complete visual record of an attendance session.
 
 ## ⏱️ Working-Hours Summary
 
-PETER now provides a summary of total working hours per cutoff period.
+ClockUp now provides a summary of total working hours per cutoff period.
 
 - Summarizes accumulated working hours for a cutoff.
 - Makes attendance totals easier to review.
@@ -93,7 +93,7 @@ This release also addresses several implementation issues.
 
 ## 📌 What This Release Means
 
-`v0.9.9` focuses on making PETER's attendance system more complete and responsive.
+`v0.9.9` focuses on making ClockUp's attendance system more complete and responsive.
 
 Clock-out image capture adds more context to attendance records, while working-hours summaries provide a clearer view of accumulated time per cutoff. Timezone settings improve timestamp interpretation, and SSE establishes the foundation for real-time attendance updates.
 
@@ -107,7 +107,7 @@ Database migrations are incorporated into the deployment workflow. Deployment ma
 
 ## ⚠️ Beta Status
 
-PETER remains in beta and is under active development. Features, behavior, architecture, and implementation may continue to change before the eventual `1.0.0` stable release.
+ClockUp remains in beta and is under active development. Features, behavior, architecture, and implementation may continue to change before the eventual `1.0.0` stable release.
 
 ## Release Timeline
 

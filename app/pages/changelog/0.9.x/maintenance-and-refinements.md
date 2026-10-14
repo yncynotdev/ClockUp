@@ -1,10 +1,10 @@
-# PETER — Maintenance & Refinements
+# ClockUp — Maintenance & Refinements
 
 **Beta Release** · Internal
 
 ## Overview
 
-This release is a minor maintenance update focused on fixes, UI refinements, security improvements, and development workflow changes across PETER.
+This release is a minor maintenance update focused on fixes, UI refinements, security improvements, and development workflow changes across ClockUp.
 
 No major features were introduced. Instead, this release addresses smaller issues and improves consistency across the application.
 
@@ -22,7 +22,7 @@ Several smaller improvements were made across the system.
 
 ## 🔐 Security
 
-Security-related improvements were also included as part of the ongoing maintenance of PETER.
+Security-related improvements were also included as part of the ongoing maintenance of ClockUp.
 
 These changes further refine the application's security configuration and help maintain a safer baseline as the system continues to evolve.
 
@@ -35,7 +35,7 @@ The development environment received several maintenance updates.
 - Updated project dependencies.
 - Refined development and deployment configuration.
 
-The new agent guidance provides coding agents with essential project context and conventions when working within the PETER codebase.
+The new agent guidance provides coding agents with essential project context and conventions when working within the ClockUp codebase.
 
 These changes help keep the development environment consistent and easier to maintain.
 
@@ -51,7 +51,7 @@ This release includes several minor fixes across the application.
 
 ## 📌 What This Release Means
 
-This is a small maintenance release focused on keeping PETER stable, consistent, and easier to maintain.
+This is a small maintenance release focused on keeping ClockUp stable, consistent, and easier to maintain.
 
 The changes in this version are primarily incremental improvements rather than major new functionality. They address issues discovered during development while refining the application's UI, security, infrastructure, and development workflow.
 
@@ -66,7 +66,7 @@ Future `0.9.x` releases will continue to focus on:
 
 ## ⚠️ Beta Status
 
-PETER remains in beta and is under active development. The architecture, behavior, features, and implementation may continue to change before the eventual `1.0.0` stable release.
+ClockUp remains in beta and is under active development. The architecture, behavior, features, and implementation may continue to change before the eventual `1.0.0` stable release.
 
 ## Release Timeline
 

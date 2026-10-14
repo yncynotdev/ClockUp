@@ -1,4 +1,4 @@
-# PETER — Attendance Data Export
+# ClockUp — Attendance Data Export
 
 **Beta Release** · Internal
 
@@ -6,7 +6,7 @@
 
 This release introduces downloadable attendance reports, allowing attendance records to be exported as **PDF** or **Excel** files.
 
-The primary focus is making attendance data easier to take outside of PETER for reporting, record keeping, and further analysis.
+The primary focus is making attendance data easier to take outside of ClockUp for reporting, record keeping, and further analysis.
 
 Alongside the export functionality, this release includes architectural improvements, staging and deployment changes, authentication refinements, and various fixes across the system.
 
@@ -40,13 +40,13 @@ Together with PDF export, this gives attendance data two practical output format
 
 ## 🏗️ System Architecture
 
-This release introduces the foundation for creating separate PETER system instances.
+This release introduces the foundation for creating separate ClockUp system instances.
 
-A new base layer establishes a structure for instance-specific customization while keeping the core PETER architecture reusable.
+A new base layer establishes a structure for instance-specific customization while keeping the core ClockUp architecture reusable.
 
 This allows future instances to have their own configuration and application-specific behavior without requiring the core system to be duplicated.
 
-The architectural direction established in this release is intended to support PETER as a reusable system rather than a single client-specific implementation.
+The architectural direction established in this release is intended to support ClockUp as a reusable system rather than a single client-specific implementation.
 
 ## 🚀 Staging & Deployment
 
@@ -71,7 +71,7 @@ Several authentication-related improvements were included in this release.
 - Removed cross-subdomain cookies to prevent authentication sessions from being accessible across unrelated subdomains.
 - Improved multi-factor authentication setup.
 
-These changes improve the isolation and consistency of authentication across PETER instances.
+These changes improve the isolation and consistency of authentication across ClockUp instances.
 
 ## 🔧 Improvements
 
@@ -102,13 +102,13 @@ This release also includes various fixes across the system.
 
 ## 📌 What This Release Means
 
-This release is primarily about making PETER's attendance data more useful outside the application.
+This release is primarily about making ClockUp's attendance data more useful outside the application.
 
 The addition of **PDF and Excel exports** allows attendance records to be transformed into practical reports and datasets that can be archived, printed, shared, or further analyzed.
 
-At the same time, the introduction of the instance architecture and staging workflow moves PETER toward a more reusable and maintainable system structure.
+At the same time, the introduction of the instance architecture and staging workflow moves ClockUp toward a more reusable and maintainable system structure.
 
-The release therefore combines a major user-facing capability with important architectural groundwork for the future of PETER.
+The release therefore combines a major user-facing capability with important architectural groundwork for the future of ClockUp.
 
 Future `0.9.x` releases will continue to focus on:
 
@@ -128,7 +128,7 @@ Deployment may occur separately from the GitHub release.
 
 ## ⚠️ Beta Status
 
-PETER remains in beta and is under active development. The architecture, behavior, features, and implementation may continue to change before the eventual `1.0.0` stable release.
+ClockUp remains in beta and is under active development. The architecture, behavior, features, and implementation may continue to change before the eventual `1.0.0` stable release.
 
 ## Release Timeline
 
@@ -138,7 +138,7 @@ Introduced PDF and Excel downloads for attendance records, providing practical f
 
 ### Instance Architecture
 
-Introduced the base layer for creating separate PETER system instances while keeping the core architecture reusable.
+Introduced the base layer for creating separate ClockUp system instances while keeping the core architecture reusable.
 
 ### Infrastructure & Refinement
 

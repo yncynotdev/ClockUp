@@ -11,10 +11,10 @@ const organizations = [
   <UPageSection
     id="organizations"
     v-reveal
-    title="Organizations Using PETER"
-    description="PETER is currently being used by organizations to manage attendance."
+    title="Organizations Using ClockUp"
+    description="ClockUp is currently being used by organizations to manage attendance."
     :ui="{
-      root: 'py-16 sm:py-20 bg-muted/35',
+      root: 'py-16 sm:py-20 ',
       title: 'font-display font-normal tracking-[-0.02em]',
     }"
   >
@@ -23,7 +23,6 @@ const organizations = [
         v-for="(organization, index) in organizations"
         :key="organization.name"
         v-reveal="revealAt(index)"
-        :ui="{ root: 'bg-elevated ring ring-muted shadow-lg shadow-default/5' }"
       >
         <div class="flex items-center gap-4">
           <NuxtImg

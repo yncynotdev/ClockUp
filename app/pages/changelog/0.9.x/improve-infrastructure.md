@@ -1,18 +1,18 @@
-# PETER v0.9.5 — Infrastructure Improvements
+# ClockUp v0.9.5 — Infrastructure Improvements
 
 **Beta Release** · Internal
 
 ## Overview
 
-`v0.9.5` focuses on strengthening PETER's infrastructure, development workflow, and overall reliability.
+`v0.9.5` focuses on strengthening ClockUp's infrastructure, development workflow, and overall reliability.
 
 This release introduces automated CI/CD pipelines, backend unit tests, client-side end-to-end testing, and improved code quality checks.
 
-Alongside the infrastructure work, this release also includes improvements to the admin interface, attendance filtering, realtime data handling, and the PETER icon.
+Alongside the infrastructure work, this release also includes improvements to the admin interface, attendance filtering, realtime data handling, and the ClockUp icon.
 
 ## 🚩 Milestone: Infrastructure Improvements
 
-The primary goal of this release was to establish a more reliable foundation for developing, testing, and deploying PETER.
+The primary goal of this release was to establish a more reliable foundation for developing, testing, and deploying ClockUp.
 
 With this milestone:
 
@@ -23,7 +23,7 @@ With this milestone:
 - Linting and formatting checks are integrated into the development workflow.
 - Cloudflare Workers environments are configured with clearer project separation.
 
-These changes establish the foundation for more consistent testing and deployment as PETER continues toward production readiness.
+These changes establish the foundation for more consistent testing and deployment as ClockUp continues toward production readiness.
 
 ## 🧪 Testing
 
@@ -38,7 +38,7 @@ The test suite will continue to grow as additional functionality is implemented 
 
 ## ⚙️ CI/CD
 
-PETER now has automated workflows for validating and deploying changes through GitHub Actions.
+ClockUp now has automated workflows for validating and deploying changes through GitHub Actions.
 
 - Added GitHub Actions workflows for the project.
 - Added automated Cloudflare deployment through Wrangler.
@@ -57,7 +57,7 @@ Several application-level improvements were also included in this release.
 - Improved attendance filtering in the admin interface.
 - Improved the consistency of admin attendance data.
 - Improved Cloudflare Wrangler environment configuration.
-- Revamped the PETER icon design and updated related implementation code.
+- Revamped the ClockUp icon design and updated related implementation code.
 
 ## 🐛 Fixes
 
@@ -72,7 +72,7 @@ This release also includes smaller fixes and adjustments discovered during devel
 
 `v0.9.5` is primarily an infrastructure and reliability milestone.
 
-Unlike a release centered around a single user-facing feature, this version focuses on improving the systems surrounding PETER itself: how it is tested, validated, and deployed.
+Unlike a release centered around a single user-facing feature, this version focuses on improving the systems surrounding ClockUp itself: how it is tested, validated, and deployed.
 
 Establishing CI/CD and automated testing gives future development a stronger safety net and makes it easier to introduce changes without relying entirely on manual verification.
 
@@ -93,10 +93,10 @@ Automated deployment is now supported through the project's CI/CD workflows. Dep
 
 ## ⚠️ Beta Status
 
-PETER remains in beta and is under active development. The architecture, behavior, features, and implementation may continue to change before the eventual `1.0.0` stable release.
+ClockUp remains in beta and is under active development. The architecture, behavior, features, and implementation may continue to change before the eventual `1.0.0` stable release.
 
 ## Release Timeline
 
 ### v0.9.5 — Infrastructure Improvements
 
-PETER's development and deployment infrastructure has been strengthened with CI/CD, automated unit and end-to-end testing, improved code quality checks, and various application refinements.
+ClockUp's development and deployment infrastructure has been strengthened with CI/CD, automated unit and end-to-end testing, improved code quality checks, and various application refinements.

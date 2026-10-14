@@ -1,4 +1,4 @@
-# PETER v0.9.6 — Attendance Calendar
+# ClockUp v0.9.6 — Attendance Calendar
 
 **Beta Release** · Internal
 
@@ -16,11 +16,11 @@ The primary feature of this release is the new attendance calendar.
 
 With the calendar filter:
 
-* Attendance records can be filtered by a specific date.
-* Users can easily navigate between different dates.
-* Selecting a date updates the displayed attendance records.
-* The calendar provides a more intuitive way to explore attendance history.
-* Date selection is integrated directly into the attendance management interface.
+- Attendance records can be filtered by a specific date.
+- Users can easily navigate between different dates.
+- Selecting a date updates the displayed attendance records.
+- The calendar provides a more intuitive way to explore attendance history.
+- Date selection is integrated directly into the attendance management interface.
 
 The calendar is designed to make reviewing historical attendance data faster and more convenient.
 
@@ -30,10 +30,10 @@ The new calendar system improves the overall attendance filtering experience.
 
 Users can now:
 
-* Select a specific date to view attendance records.
-* Navigate through previous and upcoming dates.
-* Quickly switch between dates without leaving the attendance interface.
-* Use the calendar as the primary way to explore attendance history.
+- Select a specific date to view attendance records.
+- Navigate through previous and upcoming dates.
+- Quickly switch between dates without leaving the attendance interface.
+- Use the calendar as the primary way to explore attendance history.
 
 This provides a more natural workflow for reviewing attendance records across different days.
 
@@ -45,12 +45,12 @@ The introduction of the attendance calendar provides a simpler and more intuitiv
 
 Future `0.9.x` releases will continue to focus on:
 
-* Stability
-* Bug fixes
-* Refinement
-* Performance
-* Additional attendance functionality
-* Production readiness
+- Stability
+- Bug fixes
+- Refinement
+- Performance
+- Additional attendance functionality
+- Production readiness
 
 ## 🚀 Deployment
 
@@ -60,11 +60,10 @@ Deployment may occur separately from the GitHub release.
 
 ## ⚠️ Beta Status
 
-PETER remains in beta and is under active development. The architecture, behavior, features, and implementation may continue to change before the eventual `1.0.0` stable release.
+ClockUp remains in beta and is under active development. The architecture, behavior, features, and implementation may continue to change before the eventual `1.0.0` stable release.
 
 ## Release Timeline
 
 ### v0.9.6 — Attendance Calendar
 
 Introduced a calendar-based filtering system that makes navigating and reviewing attendance records easier and more intuitive.
-

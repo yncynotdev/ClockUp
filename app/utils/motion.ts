@@ -1,7 +1,7 @@
 import type { Options } from "motion-v";
 
 /**
- * Single source of truth for PETER's motion.
+ * Single source of truth for ClockUp's motion.
  *
  * `motionPresets` is fed to the `motion-v` Nuxt module (see `nuxt.config.ts`),
  * which registers each key as a global directive. Pages therefore import

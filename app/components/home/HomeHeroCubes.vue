@@ -17,8 +17,8 @@ const CUBES = [
 ];
 
 const COLORS = {
-  dark: 0x9ccfd8,
-  light: 0x56949f,
+  dark: 0x2dd4bf,
+  light: 0x14b8a6,
 };
 
 const THEMES = {
