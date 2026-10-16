@@ -1,5 +1,8 @@
 <script setup lang="ts">
+const appConfig = useAppConfig();
+
 const runtimeConfig = useRuntimeConfig();
+
 const demoUrl = runtimeConfig.public.demoUrl;
 
 const navigation = [
@@ -19,7 +22,7 @@ const navigation = [
           ClockUp
         </NuxtLink>
 
-        <UBadge variant="subtle">v0.9.10</UBadge>
+        <UBadge variant="subtle">{{ appConfig.version }}</UBadge>
       </div>
     </template>
 
