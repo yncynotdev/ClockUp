@@ -6,6 +6,11 @@ const steps = [
     icon: "i-lucide-camera",
   },
   {
+    title: "Select your name",
+    description: "Find your name quickly with search and filters.",
+    icon: "i-lucide-keyboard",
+  },
+  {
     title: "Choose clock in or out",
     description: "They choose whether they are clocking in or clocking out.",
     icon: "i-lucide-log-in",
@@ -23,26 +28,39 @@ const steps = [
     id="how-it-works"
     v-reveal
     title="How it works"
-    description="A simple three-step process for recording attendance."
+    description="A simple four-step process for recording attendance."
     :ui="{
       root: 'py-16 sm:py-20',
       title: 'font-display font-normal tracking-[-0.02em]',
     }"
   >
-    <div class="grid gap-4 lg:grid-cols-3">
-      <UPageCard v-for="(step, index) in steps" :key="step.title" v-reveal="revealAt(index)">
-        <div class="flex items-start gap-4">
-          <div
-            class="grid size-12 shrink-0 place-items-center rounded-2xl text-primary ring ring-muted"
-          >
-            <UIcon :name="step.icon" class="size-6" />
+    <div class="relative grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div
+        class="absolute inset-x-[12.5%] top-[3.25rem] hidden h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent lg:block"
+        aria-hidden="true"
+      />
+      <UPageCard
+        v-for="(step, index) in steps"
+        :key="step.title"
+        v-reveal="revealAt(index)"
+        :ui="{ container: 'p-6' }"
+      >
+        <div class="relative flex flex-col gap-5">
+          <div class="flex items-center justify-between">
+            <div
+              class="grid size-12 shrink-0 place-items-center rounded-2xl bg-primary/10 text-primary ring ring-primary/20"
+            >
+              <UIcon :name="step.icon" class="size-6" />
+            </div>
+            <span class="font-display text-4xl leading-none text-muted/60">
+              {{ String(index + 1).padStart(2, "0") }}
+            </span>
           </div>
           <div>
-            <p class="font-display text-xs text-primary">Step {{ index + 1 }}</p>
-            <h3 class="mt-2 font-display text-base font-normal text-highlighted">
+            <h3 class="font-display text-base font-normal text-highlighted">
               {{ step.title }}
             </h3>
-            <p class="mt-3 text-sm leading-6 text-toned">
+            <p class="mt-2 text-sm leading-6 text-toned">
               {{ step.description }}
             </p>
           </div>

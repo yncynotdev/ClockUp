@@ -1,11 +1,19 @@
 <script setup lang="ts">
 const items = ref([
   {
+    date: "October 16, 2026",
+    title: "Introducing ClockUp",
+    description:
+      "A refreshed ClockUp identity, Filipino language support, faster admin navigation, and clearer camera consent notices.",
+    thumbnail: "/thumbnail/thumbnail.png",
+    to: "/changelog/0.9.x/introducing-clockup",
+  },
+  {
     date: "October 13, 2026",
     title: "Holiday & Staff Management",
     description:
       "Introduced a holidays API and clock presets for staff creation, alongside improved OTP emails and client-side refinements.",
-    thumbnail: "/thumbnail/v0.9.8.png",
+    thumbnail: "/thumbnail/thumbnail.png",
     to: "/changelog/0.9.x/holiday-and-staff-management",
   },
   {
@@ -13,7 +21,7 @@ const items = ref([
     title: "Attendance & Realtime Improvements",
     description:
       "Improved attendance tracking with clock-out images, working-hours summaries, timezone settings, and real-time updates.",
-    thumbnail: "/thumbnail/v0.9.8.png",
+    thumbnail: "/thumbnail/thumbnail.png",
     to: "/changelog/0.9.x/attendance-and-realtime-improvements",
   },
   {
@@ -21,7 +29,7 @@ const items = ref([
     title: "Maintenance & Refinements",
     description:
       "Minor fixes, UI refinements, security improvements, and development workflow updates across ClockUp.",
-    thumbnail: "/thumbnail/v0.9.8.png",
+    thumbnail: "/thumbnail/thumbnail.png",
     to: "/changelog/0.9.x/maintenance-and-refinements",
   },
   {
@@ -29,7 +37,7 @@ const items = ref([
     title: "Attendance Data Export",
     description:
       "Download attendance records as PDF or Excel files for easier reporting and record keeping.",
-    thumbnail: "/thumbnail/v0.9.7.png",
+    thumbnail: "/thumbnail/thumbnail.png",
     to: "/changelog/0.9.x/attendance-data-export",
   },
   {
@@ -37,7 +45,7 @@ const items = ref([
     title: "Attendance Calendar",
     description:
       "Introducing a calendar-based system for easily filtering and navigating attendance records.",
-    thumbnail: "/thumbnail/v0.9.6.png",
+    thumbnail: "/thumbnail/thumbnail.png",
     to: "/changelog/0.9.x/attendance-calendar",
   },
   {
@@ -45,7 +53,7 @@ const items = ref([
     title: "Improve Infrastructure and Revamped Icon",
     description:
       " Improved ClockUp’s infrastructure with CI/CD, unit and E2E testing, and a more reliable development workflow, alongside minor fixes and refinements. ",
-    thumbnail: "/thumbnail/v0.9.5.png",
+    thumbnail: "/thumbnail/thumbnail.png",
     to: "/changelog/0.9.x/improve-infrastructure",
   },
   {
@@ -53,7 +61,7 @@ const items = ref([
     title: "Legacy Integration Complete",
     description:
       "Completed the transition from ClockUp's legacy implementation to its new infrastructure and system architecture.",
-    thumbnail: "/thumbnail/v0.9.4.png",
+    thumbnail: "/thumbnail/thumbnail.png",
     to: "/changelog/0.9.x/legacy-integration-complete",
   },
 ]);
