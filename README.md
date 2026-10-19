@@ -15,13 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="#about-peter">About ClockUp</a>
-  ·
-  <a href="#built-with">Built With</a>
-  ·
-  <a href="#status">Status</a>
-  ·
-  <a href="#license">License</a>
+  <a href="http://clock-up.pages.dev/changelog">Changelog</a>
 </p>
 
 ---
