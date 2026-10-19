@@ -6,7 +6,7 @@ const items = ref([
     description:
       "ClockUp reaches its first release candidate, with attendance status fixes and a refined production deployment workflow.",
     thumbnail: "/thumbnail/thumbnail.png",
-    to: "/changelog/1.x.x-rc/release-candidate",
+    to: "/changelog/1.0.0-rc.x/release-candidate",
   },
   {
     date: "October 16, 2026",
