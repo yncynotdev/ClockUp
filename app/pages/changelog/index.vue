@@ -1,6 +1,14 @@
 <script setup lang="ts">
 const items = ref([
   {
+    date: "October 24, 2026",
+    title: "Security & Stability",
+    description:
+      "Strengthened API security, fixed attendance and export issues, and expanded end-to-end testing ahead of ClockUp 1.0.0.",
+    thumbnail: "/thumbnail/thumbnail.png",
+    to: "/changelog/1.0.0-rc.x/security-and-stability",
+  },
+  {
     date: "October 18, 2026",
     title: "Release Candidate 1",
     description:
