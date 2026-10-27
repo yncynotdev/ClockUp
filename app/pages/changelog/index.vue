@@ -1,6 +1,14 @@
 <script setup lang="ts">
 const items = ref([
   {
+    date: "October 27, 2026",
+    title: "Tooling Modernization",
+    description:
+      "Migrated to Vite+ and fixed the client CI workflow to keep release-candidate builds running smoothly.",
+    thumbnail: "/thumbnail/thumbnail.png",
+    to: "/changelog/1.0.0-rc.x/tooling-modernization",
+  },
+  {
     date: "October 24, 2026",
     title: "Security & Stability",
     description:
