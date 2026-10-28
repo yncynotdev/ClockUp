@@ -50,7 +50,7 @@ export default defineNuxtConfig({
         },
         {
           property: "og:image",
-          content: "https://peter-app-cf.pages.dev/og-image.jpg",
+          content: "https://clock-up.pages.dev/og-image.jpg",
         },
         {
           property: "og:type",
@@ -58,7 +58,7 @@ export default defineNuxtConfig({
         },
         {
           property: "og:url",
-          content: "https://peter-app-cf.pages.dev",
+          content: "https://clock-up.pages.dev",
         },
         {
           property: "article:author",
