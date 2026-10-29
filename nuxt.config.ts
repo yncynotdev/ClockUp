@@ -94,7 +94,8 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      demoUrl: import.meta.env.NUXT_DEMO_URL,
+      demo: "",
+      bucket: "",
     },
   },
 

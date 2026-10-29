@@ -1,6 +1,5 @@
 <script setup lang="ts">
 const runtimeConfig = useRuntimeConfig();
-const demoUrl = runtimeConfig.public.demoUrl;
 </script>
 
 <template>
@@ -11,7 +10,7 @@ const demoUrl = runtimeConfig.public.demoUrl;
     :links="[
       {
         label: 'Open demo',
-        to: demoUrl,
+        to: runtimeConfig.public.demo,
         target: '_blank',
         trailingIcon: 'i-lucide-external-link',
       },

@@ -2,10 +2,10 @@
   <!-- reduced-motion="user" makes every motion element honour prefers-reduced-motion. -->
   <MotionConfig reduced-motion="user">
     <UApp>
+      <NuxtLoadingIndicator />
       <AppHeader />
 
       <UMain class="flex-1">
-        <NuxtLoadingIndicator />
         <NuxtLayout>
           <NuxtPage />
         </NuxtLayout>

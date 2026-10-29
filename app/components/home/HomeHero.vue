@@ -2,12 +2,11 @@
 import type { ButtonProps } from "@nuxt/ui";
 
 const runtimeConfig = useRuntimeConfig();
-const demoUrl = runtimeConfig.public.demoUrl;
 
 const links = ref<ButtonProps[]>([
   {
     label: "Open demo",
-    to: demoUrl,
+    to: runtimeConfig.public.demo,
     target: "_blank",
     trailingIcon: "i-lucide-external-link",
   },

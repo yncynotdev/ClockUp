@@ -3,8 +3,6 @@ const appConfig = useAppConfig();
 
 const runtimeConfig = useRuntimeConfig();
 
-const demoUrl = runtimeConfig.public.demoUrl;
-
 const navigation = [
   { label: "Home", to: "/" },
   // { label: "Contact", to: "#contact" },
@@ -44,7 +42,7 @@ const navigation = [
 
       <UButton
         label="Open demo"
-        :to="demoUrl"
+        :to="runtimeConfig.public.demo"
         target="_blank"
         trailing-icon="i-lucide-external-link"
         class="hidden md:inline-flex"

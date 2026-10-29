@@ -1,4 +1,8 @@
 <script setup lang="ts">
+const runtimeConfig = useRuntimeConfig();
+
+const clip = `${runtimeConfig.public.bucket}/landing_page/attendance-demo.mp4`;
+
 const steps = [
   {
     title: "Take a picture",
@@ -76,7 +80,7 @@ const steps = [
       preload="metadata"
       class="bg-elevated rin ring-muted shadow-lg shadow-default/5 w-full"
     >
-      <source src="/clip/attendance-demo.mp4" type="video/mp4" />
+      <source :src="clip" type="video/mp4" />
     </video>
   </UPageSection>
 </template>
